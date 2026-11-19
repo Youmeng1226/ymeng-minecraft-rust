@@ -1,0 +1,23 @@
+[workspace]
+resolver = "2"
+members = [
+    "crates/ymc-core",
+    "crates/ymc-worldgen",
+    "crates/ymc-mesh",
+    "crates/ymc-client",
+]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+repository = "https://github.com/Youmeng1226/ymeng-minecraft-rust"
+authors = ["Youmeng1226"]
+
+[workspace.dependencies]
+ymc-core = { path = "crates/ymc-core" }
+ymc-worldgen = { path = "crates/ymc-worldgen" }
+ymc-mesh = { path = "crates/ymc-mesh" }
+
+[profile.dev.package."*"]
+opt-level = 2

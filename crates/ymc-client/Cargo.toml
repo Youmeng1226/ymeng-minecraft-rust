@@ -1,0 +1,17 @@
+[package]
+name = "ymc-client"
+description = "YMeng Minecraft client (headless preview for now)"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[[bin]]
+name = "ymeng-minecraft"
+path = "src/main.rs"
+
+[dependencies]
+ymc-core.workspace = true
+ymc-worldgen.workspace = true
+ymc-mesh.workspace = true

@@ -1,0 +1,11 @@
+[package]
+name = "ymc-mesh"
+description = "Chunk mesh generation with hidden-face culling"
+version.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+authors.workspace = true
+
+[dependencies]
+ymc-core.workspace = true
