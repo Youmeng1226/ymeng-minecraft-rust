@@ -11,6 +11,8 @@
 
 *English: a Minecraft-like voxel sandbox written from scratch in Rust. Core voxel types, procedural terrain and chunk meshing are in place; the `wgpu` renderer is the next milestone.*
 
+**本项目将由作者和 Devin bot 协同完成。**
+
 ## 目标
 
 - **性能优先**：多线程区块生成与网格构建，远视距下保持高帧率
